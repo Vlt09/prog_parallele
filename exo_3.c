@@ -15,7 +15,7 @@ int main()
         double start_time = omp_get_wtime();
         for (int j = 0; j < 50; j++)
         {
-            // printf("j = %d ", j);
+            printf("j = %d ", j);
         }
         double end_time = omp_get_wtime();
         time_acc += (end_time - start_time);
